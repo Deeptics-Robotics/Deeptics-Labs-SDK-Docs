@@ -1,0 +1,9 @@
+{
+  "name": "@deeptics/sdk",
+  "version": "0.1.0",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "mkdir -p dist && cp src/index.ts dist/index.js"
+  }
+}

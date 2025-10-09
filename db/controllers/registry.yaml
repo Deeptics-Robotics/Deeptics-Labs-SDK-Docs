@@ -1,0 +1,3 @@
+controllers:
+  - id: ll_balance_ctrl
+    path: assets/controllers/ll_balance_ctrl.py

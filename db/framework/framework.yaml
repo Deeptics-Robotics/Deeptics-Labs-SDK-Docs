@@ -1,0 +1,2 @@
+studio:
+  features: [snap_fit_rigging, ik_constraints]

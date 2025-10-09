@@ -1,0 +1,23 @@
+- id: HUM-CMP-2059
+  family: humanoid
+  model_name: Humanoid-Compact
+  version: v1
+  status: beta
+  dof: 25
+  payload_kg: 1.0
+  mass_kg: 6.0
+  size_mm: {L: 300, W: 180, H: 570}
+  sensors:
+    - {type: camera, count: 2}
+  compute: {controller: Edge-CTRL-C1, aux: NPU-Lite}
+  actuators: {type: servo, count: 25}
+  power: {battery: BT-S, bms: BMS-S1}
+  default_controllers: [Balance_Composable]
+  payload_range_kg: {min: 0.0, max: 1.2}
+  torque_spec:
+    class: servo_S
+    per_axis:
+      - {axis: hip, peak_Nm: 2.5, cont_Nm: 1.2, count: 2}
+  thermal_envelope:
+    ambient_C: [-5, 40]
+    cooling: passive
