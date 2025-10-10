@@ -2,14 +2,14 @@
   <img src="DeepticsLabs.jpg" alt="Deeptics Labs Banner" width="100%">
 </p>
 
-## Description
-This script is used to validate a humanoid model within the Deeptics Labs SDK environment.
-It ensures the model's integrity and compliance with the internal robotics framework.
-
 # Validate Humanoid Compact
 > An example of using the SDK to validate a humanoid model in a compact form.
 
 ---
+
+## Description
+This script is used to validate a humanoid model within the Deeptics Labs SDK environment.
+It ensures the model's integrity and compliance with the internal robotics framework.
 
 ### 📂 File Location
 examples/validate_humanoid_compact.py
