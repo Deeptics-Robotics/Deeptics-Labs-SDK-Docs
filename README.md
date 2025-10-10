@@ -1,23 +1,35 @@
-<div align="center">
-  <h1>DEEPTICS LABS</h1>
-  <p><em>Design • Simulate • Manufacture • Deploy • Operate — an end-to-end robotics stack.</em></p>
-  <p><a href="#">docs</a> • <a href="#">sdk</a> • <a href="#">db</a> • <a href="#">examples</a></p>
-</div>
+<p align="center">
+  <img src="DeepticsLabs" alt="Deeptics Labs Banner" width="100%">
+</p>
 
-## Overview
-Deeptics Labs is an original, modular robotics framework: 3D Studio, AI Module Library, Grid Network (PoSml), and Marketplace.
+## Description
+This script is used to validate a humanoid model within the Deeptics Labs SDK environment.
+It ensures the model's integrity and compliance with the internal robotics framework.
 
-## Quick Start
-```bash
+# Validate Humanoid Compact
+> An example of using the SDK to validate a humanoid model in a compact form.
+
+---
+
+### 📂 File Location
+examples/validate_humanoid_compact.py
+
+### Example Output
+```python
+print('Validate HUM-CMP-2059: OK')
+```
+## Structure
+db/         — structured database  
+sdk/        — Python & TypeScript SDKs  
+cli/        — minimal CLI  
+docs/       — guides  
+examples/   — runnable samples  
+
+## How to Run 
+```python
 python3 -m venv deeptics_venv
 source deeptics_venv/bin/activate
 cd sdk/python && pip install -e .
 python examples/validate_humanoid_compact.py
-
-
-## Structure
-- db/ — structured database
-- sdk/ — Python & TypeScript SDKs
-- cli/ — minimal CLI
-- docs/ — guides
-- examples/ — runnable samples
+```
+<p align="center"> © 2025 <strong>Deeptics Labs</strong> — Modular Robotics Framework </p> 
