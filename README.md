@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="DeepticsLabs" alt="Deeptics Labs Banner" width="100%">
+  <img src="DeepticsLabs.jpg" alt="Deeptics Labs Banner" width="100%">
 </p>
 
 ## Description
