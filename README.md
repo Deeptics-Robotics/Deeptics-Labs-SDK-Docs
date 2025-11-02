@@ -19,11 +19,13 @@ examples/validate_humanoid_compact.py
 print('Validate HUM-CMP-2059: OK')
 ```
 ## Structure
+```python
 db/         — structured database  
 sdk/        — Python & TypeScript SDKs  
 cli/        — minimal CLI  
 docs/       — guides  
-examples/   — runnable samples  
+examples/   — runnable samples
+```
 
 ## How to Run 
 ```python
